@@ -49,7 +49,7 @@
             color: red;
           } */
 
-          #box ~ p{
+          /* #box ~ p{
             color: yellow;
           }
 
@@ -73,10 +73,49 @@
           a:link{
             color: rosybrown; background-color: brown;
           }
+          
+          */
+
+
+          /* Date 06/12/2025  */
+
+          /* .even{
+            color: red;
+          }
+          
+          .odd{
+            color: blue;
+          } */
+
+          /* ul li:nth-child(odd){
+            color: blue;
+          }
+          ul li:nth-child(even){
+            color: red;
+          } */
+
+          ul li:nth-child(1),li:nth-child(3),li:nth-child(5){
+            color: blue;
+          }
+          ul li:nth-child(2),li:nth-child(4),li:nth-child(6){
+            color: red;
+          }
+          ul li::first-letter{
+            color: pink; font-size: 30px;
+          }
+
+          ul li::after{
+            content: " read more";
+          }
+
+          ::marker{
+            color: coral;
+          }
 
      </style>
 </head>
 <body>
+
     <!-- CSS selectors are used to 'find' and 'select' HTML elements Which you want to style. -->
 
     <!-- <h1 style="color: aqua;">Hello ABES!</h1> -->
@@ -107,5 +146,21 @@
     </p>
 
     <a href="https://google.com">Google</a>
+
+
+     <!-- Date 06/12/2025 -->
+
+     <!-- I am Gaurav Saini From Saharanpur, Uttar Pradesh. I am studying in ABES Engineering College Ghazaibad. I am Learning Web Development Because I love to create new things. Today is ThrusDay.   -->
+
+
+    <ul>
+      <li class="odd">CSE 15</li>
+      <li  class="even">CSE 16</li>
+      <li  class="odd">CSE 17</li>
+      <li class="even">CSE 18</li>
+      <li  class="odd">CSE 19</li>
+      <li class="even">CSE 20</li>
+    </ul>
+
 </body>
 </html>
