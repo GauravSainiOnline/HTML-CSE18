@@ -1,0 +1,22 @@
+body{
+     margin: 0;
+     padding: 0;
+     /* background-color: antiquewhite;
+     background-image: url(ram-dhanush-sea-sunrise-blue-260nw-2348544243.webp);
+     background-repeat: repeat-x;
+     background-size: cover;
+     background-position: top right; */
+     background: url(ram-dhanush-sea-sunrise-blue-260nw-2348544243.webp) no-repeat top right ;
+     /* background: url(ram-dhanush-sea-sunrise-blue-260nw-2348544243.webp) no-repeat top right  , url(Screenshot\ 2025-10-25\ 153237.png) no-repeat top left; */
+    }
+       
+html, *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+h1{
+    color: blue;
+}
+
