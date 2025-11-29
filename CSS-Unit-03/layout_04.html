@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 04</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        html, *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #container{
+            box-sizing: border-box;
+            width: 500px;
+            height: 565px;
+            background-color: rgb(14, 139, 14);
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding: 20px;
+        }
+
+        #pageHeader{
+            width: 100%;
+            height: 40px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #nav{
+            width: 100%;
+            height: 40px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #article-container{
+            box-sizing: border-box;
+            width: 100%;
+            height: 40%;
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center */
+            align-items: center;
+            gap: 5px;
+        }
+
+        #article-head{
+            width: 90%;
+            height: 14%;
+            margin: 3px;
+            background-color: rgb(220, 220, 85);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #article-content{
+            width: 90%;
+            height: 70%;
+            background-color: rgb(220, 220, 85);
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        #section{
+            width: 100%;
+            height: 40px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #aside{
+            width: 100%;
+            height: 40px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #footer{
+            width: 100%;
+            height: 40px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <main id="container">
+        <div id="pageHeader">PageHeader</div>
+        <div id="nav">Nav</div>
+        <div id="article-container">
+            Article
+            <div id="article-head">Article Header</div>
+            <div id="article-content">Main</div>
+        </div>
+        <div id="section">Section</div>
+        <div id="aside">Aside</div>
+        <div id="footer">Footer</div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container{
+            width: 100%;
+            height: 100%;
+        }
+
+        #nav{
+            width: 80%;
+            height: 30px;
+            margin: auto;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #content{
+            width: 350px;
+            height: 350px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(242 242 242 / 88%);;
+
+        }
+
+        img{
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        #button{
+            width: 90%;
+            height: 30px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: rgb(79, 161, 255);
+            margin: auto;
+        }
+
+        #product_name{
+            margin-left: 72px;
+        }
+
+        p{
+            margin-left: 72px;
+        }
+        
+        #price{
+            margin-left: 72px;
+            color: green;
+            font-weight: bold;
+        }
+        #old_price{
+            margin-left: 72px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="nav"><h1>ShopEasy</h1></div>
+        <br>
+        <div id="content">
+            <img src="istockphoto-483960103-612x612.jpg" alt="" width="200px">
+            <h3 id="product_name">Classic Cotton T-shirt</h3>
+            <p>Soft, breathable cotton Regular fit. Available in multiple colors.</p>
+            <span id="price">₹799</span>
+            <span id="old_price"><strike>₹1199</strike></span>
+            <button id="button">Add To Cart</button>
+        </div>
+        
+    </div>
+</body>
+</html>
